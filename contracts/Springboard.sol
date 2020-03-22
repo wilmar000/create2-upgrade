@@ -15,7 +15,6 @@ contract Springboard {
   event ContractCreated(address);
   
   function execute(bytes memory runtimeCode) public payable {
-    // guard against 
     require(!_mutex);
     _mutex = true;
       
