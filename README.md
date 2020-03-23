@@ -22,3 +22,5 @@ There are 2 scripts in the scripts folder used to generate the initcode:
 4. after the upgrade, verify that the wallet version is 2.0
 5. commit your changes to github and submit your github url
 
+## Special notes
+The contracts created by the Springboard contract do not initialize the state variable in the constructor. You will need to create a regular function (not constructor) to initialize the variables instead
